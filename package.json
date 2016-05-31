@@ -1,5 +1,9 @@
 {
   "name": "react-native-whatsapp-android",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikram-sewadra/react-native-whatsapp-contact.git"
+  },
   "version": "1.0.0",
   "description": "React native module to get whatsapp contact from mobile in android",
   "main": "index.js",
