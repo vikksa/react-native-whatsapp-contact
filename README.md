@@ -65,7 +65,7 @@ dependencies {
 }
 ```
 
-* register module (in android/app/src/main/java/[your-app-namespace]/MainApplication.java)
+* register module (in android/app/src/main/java/[your-app-namespace]/MainActivity.java)
 ```java
 	...
 
