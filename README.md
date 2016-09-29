@@ -23,7 +23,7 @@ import {
   NativeModules
 } from 'react-native'
 
-NativeModules.WhatsApp.getAllWhatsAppContacts(contacts) => {
+NativeModules.WhatsApp.getAllWhatsAppContacts((contacts) => {
     console.log(contacts)
 })
 ```
@@ -52,7 +52,7 @@ run `npm install react-native-whatsapp-contacts`
 ```gradle
 ...
 include ':whatsapp-contact'
-project(':whatsapp-contact').projectDir=newFile(settingsDir,'../node_modules/react-native-whatsapp-android/whatsappcontac')
+project(':whatsapp-contact').projectDir=newFile(settingsDir,'../node_modules/react-native-whatsapp-android/whatsappcontact')
 
 ```
 
@@ -65,7 +65,7 @@ dependencies {
 }
 ```
 
-* register module (in android/app/src/main/java/[your-app-namespace]/MainActivity.java)
+* register module (in android/app/src/main/java/[your-app-namespace]/MainApplication.java)
 ```java
 	...
 
